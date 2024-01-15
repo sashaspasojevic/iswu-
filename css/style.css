@@ -1,0 +1,2192 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;1,6..12,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;1,6..12,400&display=swap");
+/**************
+FLEX
+**************/
+/**************
+breakpoint
+**************/
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;1,6..12,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;1,6..12,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;1,6..12,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;1,6..12,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;1,6..12,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;1,6..12,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;1,6..12,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;1,6..12,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;1,6..12,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;1,6..12,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;1,6..12,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;1,6..12,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;1,6..12,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;1,6..12,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;1,6..12,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;1,6..12,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;1,6..12,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;1,6..12,400&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box; }
+
+/* Remove default padding */
+ul,
+ol {
+  padding: 0; }
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0; }
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  line-height: 1.75; }
+  @media only screen and (min-width: 200px) and (max-width: 650px) {
+    body {
+      font-size: .9rem; } }
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  line-height: 1.3;
+  letter-spacing: 1px; }
+
+/* Remove list styles on ul, ol elements with a class attribute */
+ul,
+ol {
+  list-style: none; }
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto; }
+
+/* Make images easier to work with */
+img {
+  width: 100%;
+  display: block; }
+
+/* Natural flow and rhythm in articles by default */
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit; }
+
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important; } }
+.container {
+  width: 80%;
+  margin: 0 auto; }
+  @media only screen and (min-width: 200px) and (max-width: 650px) {
+    .container {
+      width: 90%; } }
+  @media only screen and (min-width: 200px) and (max-width: 650px) {
+    .container {
+      width: 95%; } }
+
+.py {
+  padding: 60px 0 90px; }
+  @media (max-width: 1300px) {
+    .py {
+      padding: 40px 0; } }
+  @media (max-width: 768px) {
+    .py {
+      padding: 30px 0; } }
+
+.btn {
+  display: inline-block;
+  background-color: #075985;
+  color: #eff6ff;
+  border: 1px solid #075985;
+  font-size: 14px;
+  letter-spacing: 2px;
+  padding: 15px 20px;
+  overflow: hidden;
+  margin: 10px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out; }
+  .btn:hover {
+    color: #eff6ff;
+    background-color: #38bdf8;
+    border-color: #38bdf8; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+.second__heading {
+  font-size: 2.8rem;
+  font-weight: 300;
+  margin-bottom: 100px; }
+  @media only screen and (min-width: 200px) and (max-width: 650px) {
+    .second__heading {
+      font-size: 2.2rem; } }
+
+/**************
+FLEX
+**************/
+/**************
+breakpoint
+**************/
+/**************
+FLEX
+**************/
+/**************
+breakpoint
+**************/
+*,
+*::before,
+*::after {
+  box-sizing: border-box; }
+
+/* Remove default padding */
+ul,
+ol {
+  padding: 0; }
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0; }
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  line-height: 1.75; }
+  @media only screen and (min-width: 200px) and (max-width: 650px) {
+    body {
+      font-size: .9rem; } }
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  line-height: 1.3;
+  letter-spacing: 1px; }
+
+/* Remove list styles on ul, ol elements with a class attribute */
+ul,
+ol {
+  list-style: none; }
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto; }
+
+/* Make images easier to work with */
+img {
+  width: 100%;
+  display: block; }
+
+/* Natural flow and rhythm in articles by default */
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit; }
+
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important; } }
+.container {
+  width: 80%;
+  margin: 0 auto; }
+  @media only screen and (min-width: 200px) and (max-width: 650px) {
+    .container {
+      width: 90%; } }
+  @media only screen and (min-width: 200px) and (max-width: 650px) {
+    .container {
+      width: 95%; } }
+
+.py {
+  padding: 60px 0 90px; }
+  @media (max-width: 1300px) {
+    .py {
+      padding: 40px 0; } }
+  @media (max-width: 768px) {
+    .py {
+      padding: 30px 0; } }
+
+.btn {
+  display: inline-block;
+  background-color: #075985;
+  color: #eff6ff;
+  border: 1px solid #075985;
+  font-size: 14px;
+  letter-spacing: 2px;
+  padding: 15px 20px;
+  overflow: hidden;
+  margin: 10px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out; }
+  .btn:hover {
+    color: #eff6ff;
+    background-color: #38bdf8;
+    border-color: #38bdf8; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+.second__heading {
+  font-size: 2.8rem;
+  font-weight: 300;
+  margin-bottom: 100px; }
+  @media only screen and (min-width: 200px) and (max-width: 650px) {
+    .second__heading {
+      font-size: 2.2rem; } }
+
+/**************
+FLEX
+**************/
+/**************
+breakpoint
+**************/
+header {
+  background: #e0f2fe; }
+  header .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    @media only screen and (min-width: 651px) and (max-width: 896px) {
+      header .hero {
+        display: block; } }
+    @media only screen and (min-width: 200px) and (max-width: 650px) {
+      header .hero {
+        display: block; } }
+    header .hero .hero__text {
+      flex: 0 0 60%;
+      font-size: 1.2rem; }
+      @media only screen and (min-width: 651px) and (max-width: 896px) {
+        header .hero .hero__text {
+          font-size: 1rem; } }
+      @media only screen and (min-width: 200px) and (max-width: 650px) {
+        header .hero .hero__text {
+          font-size: 1rem; } }
+      header .hero .hero__text .hero__link {
+        margin-bottom: 30px; }
+      header .hero .hero__text .hero__content h1 {
+        font-size: 3.3rem;
+        font-weight: 300;
+        max-width: 50%;
+        margin-bottom: 10px; }
+        @media only screen and (min-width: 651px) and (max-width: 896px) {
+          header .hero .hero__text .hero__content h1 {
+            font-size: 2.5rem;
+            max-width: unset; } }
+        @media only screen and (min-width: 200px) and (max-width: 650px) {
+          header .hero .hero__text .hero__content h1 {
+            font-size: 2.5rem;
+            max-width: unset; } }
+      header .hero .hero__text .hero__content .hero__badge {
+        background-color: #e9b857;
+        padding: 5px 10px;
+        border-radius: 50px;
+        font-size: 14px;
+        color: #eff6ff; }
+      header .hero .hero__text .hero__content .hero__content-p {
+        margin: 50px 0 30px 0; }
+      header .hero .hero__text .hero__content .btn {
+        margin: 50px 0 0 0; }
+        @media only screen and (min-width: 651px) and (max-width: 896px) {
+          header .hero .hero__text .hero__content .btn {
+            width: 100%;
+            text-align: center; } }
+        @media only screen and (min-width: 200px) and (max-width: 650px) {
+          header .hero .hero__text .hero__content .btn {
+            width: 100%;
+            text-align: center; } }
+    header .hero .hero__image {
+      flex: 0 0 40%; }
+      @media only screen and (min-width: 651px) and (max-width: 896px) {
+        header .hero .hero__image {
+          margin-top: 70px; } }
+      @media only screen and (min-width: 200px) and (max-width: 650px) {
+        header .hero .hero__image {
+          margin-top: 70px; } }
+      header .hero .hero__image .hero__image-content {
+        background-image: url(../img/home3.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 500px;
+        border-top-left-radius: 100%;
+        border-top-right-radius: 100%; }
+        @media only screen and (min-width: 651px) and (max-width: 896px) {
+          header .hero .hero__image .hero__image-content {
+            border-top-left-radius: unset;
+            border-top-right-radius: unset;
+            border-bottom-left-radius: 50%; } }
+        @media only screen and (min-width: 200px) and (max-width: 650px) {
+          header .hero .hero__image .hero__image-content {
+            border-top-left-radius: unset;
+            border-top-right-radius: unset;
+            border-bottom-left-radius: 50%; } }
+
+.menu__head-burger {
+  position: relative;
+  width: 40px;
+  height: 50px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.5s ease-in-out; }
+  @media only screen and (min-width: 651px) and (max-width: 896px) {
+    .menu__head-burger {
+      visibility: visible;
+      opacity: 1; } }
+  @media only screen and (min-width: 200px) and (max-width: 650px) {
+    .menu__head-burger {
+      visibility: visible;
+      opacity: 1; } }
+  .menu__head-burger::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background: #082f49;
+    transform: translateY(-12px);
+    box-shadow: 0 12px #082f49;
+    transition: all 0.5s ease-in-out; }
+  .menu__head-burger::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background: #082f49;
+    transform: translateY(12px);
+    transition: all 0.5s ease-in-out; }
+
+.menu__head.active .menu__head-burger::before {
+  transform: rotate(45deg);
+  box-shadow: 0 0 #e0f2fe; }
+
+.menu__head.active .menu__head-burger::after {
+  transform: rotate(315deg); }
+
+/**************
+FLEX
+**************/
+/**************
+breakpoint
+**************/
+*,
+*::before,
+*::after {
+  box-sizing: border-box; }
+
+/* Remove default padding */
+ul,
+ol {
+  padding: 0; }
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0; }
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  line-height: 1.75; }
+  @media only screen and (min-width: 200px) and (max-width: 650px) {
+    body {
+      font-size: .9rem; } }
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  line-height: 1.3;
+  letter-spacing: 1px; }
+
+/* Remove list styles on ul, ol elements with a class attribute */
+ul,
+ol {
+  list-style: none; }
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto; }
+
+/* Make images easier to work with */
+img {
+  width: 100%;
+  display: block; }
+
+/* Natural flow and rhythm in articles by default */
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit; }
+
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important; } }
+.container {
+  width: 80%;
+  margin: 0 auto; }
+  @media only screen and (min-width: 200px) and (max-width: 650px) {
+    .container {
+      width: 90%; } }
+  @media only screen and (min-width: 200px) and (max-width: 650px) {
+    .container {
+      width: 95%; } }
+
+.py {
+  padding: 60px 0 90px; }
+  @media (max-width: 1300px) {
+    .py {
+      padding: 40px 0; } }
+  @media (max-width: 768px) {
+    .py {
+      padding: 30px 0; } }
+
+.btn {
+  display: inline-block;
+  background-color: #075985;
+  color: #eff6ff;
+  border: 1px solid #075985;
+  font-size: 14px;
+  letter-spacing: 2px;
+  padding: 15px 20px;
+  overflow: hidden;
+  margin: 10px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out; }
+  .btn:hover {
+    color: #eff6ff;
+    background-color: #38bdf8;
+    border-color: #38bdf8; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+.second__heading {
+  font-size: 2.8rem;
+  font-weight: 300;
+  margin-bottom: 100px; }
+  @media only screen and (min-width: 200px) and (max-width: 650px) {
+    .second__heading {
+      font-size: 2.2rem; } }
+
+/**************
+FLEX
+**************/
+/**************
+breakpoint
+**************/
+.menu__head-logo {
+  width: 80px; }
+
+.menu {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #082f49; }
+  @media only screen and (min-width: 651px) and (max-width: 896px) {
+    .menu {
+      display: block;
+      width: 100%; } }
+  @media only screen and (min-width: 200px) and (max-width: 650px) {
+    .menu {
+      display: block;
+      width: 100%; } }
+  .menu .menu__head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    @media only screen and (min-width: 651px) and (max-width: 896px) {
+      .menu .menu__head {
+        padding: 20px 0; } }
+    @media only screen and (min-width: 200px) and (max-width: 650px) {
+      .menu .menu__head {
+        padding: 20px 0; } }
+  .menu .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%; }
+    @media only screen and (min-width: 651px) and (max-width: 896px) {
+      .menu .nav {
+        display: block;
+        position: absolute;
+        background: #e0f2fe;
+        width: 80%;
+        transition: all 0.5s ease-in-out;
+        visibility: hidden;
+        opacity: 0; } }
+    @media only screen and (min-width: 200px) and (max-width: 650px) {
+      .menu .nav {
+        display: block;
+        position: absolute;
+        background: #e0f2fe;
+        width: 80%;
+        transition: all 0.5s ease-in-out;
+        visibility: hidden;
+        opacity: 0; } }
+    @media only screen and (min-width: 200px) and (max-width: 650px) {
+      .menu .nav {
+        width: 95%; } }
+    .menu .nav .nav__pageNavigation {
+      margin-right: auto; }
+      @media only screen and (min-width: 651px) and (max-width: 896px) {
+        .menu .nav .nav__pageNavigation {
+          margin-right: 0; } }
+      @media only screen and (min-width: 200px) and (max-width: 650px) {
+        .menu .nav .nav__pageNavigation {
+          margin-right: 0; } }
+    .menu .nav ul {
+      display: flex;
+      align-items: center; }
+      @media only screen and (min-width: 651px) and (max-width: 896px) {
+        .menu .nav ul {
+          display: block; } }
+      @media only screen and (min-width: 200px) and (max-width: 650px) {
+        .menu .nav ul {
+          display: block; } }
+      .menu .nav ul li {
+        margin-left: 30px;
+        transition: all 0.5s ease-in-out; }
+        @media only screen and (min-width: 651px) and (max-width: 896px) {
+          .menu .nav ul li {
+            margin-left: 0; } }
+        @media only screen and (min-width: 200px) and (max-width: 650px) {
+          .menu .nav ul li {
+            margin-left: 0; } }
+        .menu .nav ul li a {
+          text-transform: capitalize;
+          transition: all 0.5s ease-in-out;
+          display: inline-block;
+          padding: 40px 0; }
+          .menu .nav ul li a i {
+            margin-right: 5px; }
+            @media only screen and (min-width: 651px) and (max-width: 896px) {
+              .menu .nav ul li a i {
+                margin-left: unset; } }
+            @media only screen and (min-width: 200px) and (max-width: 650px) {
+              .menu .nav ul li a i {
+                margin-left: unset; } }
+          @media only screen and (min-width: 651px) and (max-width: 896px) {
+            .menu .nav ul li a {
+              padding: 25px 0; } }
+          @media only screen and (min-width: 200px) and (max-width: 650px) {
+            .menu .nav ul li a {
+              padding: 25px 0; } }
+          .menu .nav ul li a:hover {
+            color: #0ea5e9; }
+    .menu .nav .nav__dropdown {
+      position: relative; }
+      .menu .nav .nav__dropdown .products_li-nested {
+        position: absolute;
+        left: -100px;
+        top: 78px;
+        background: #7dd3fc;
+        transition: all 0.5s ease-in-out;
+        display: none;
+        align-items: start;
+        width: 550px;
+        padding: 50px; }
+        @media only screen and (min-width: 651px) and (max-width: 896px) {
+          .menu .nav .nav__dropdown .products_li-nested {
+            left: 0;
+            top: 65px; } }
+        @media only screen and (min-width: 200px) and (max-width: 650px) {
+          .menu .nav .nav__dropdown .products_li-nested {
+            left: 0;
+            top: 65px; } }
+        .menu .nav .nav__dropdown .products_li-nested::before {
+          content: "";
+          background: #7dd3fc;
+          width: 14px;
+          height: 10px;
+          clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+          position: absolute;
+          top: -4px;
+          left: 25%;
+          transform: translate(-50%, -50%); }
+          @media only screen and (min-width: 651px) and (max-width: 896px) {
+            .menu .nav .nav__dropdown .products_li-nested::before {
+              display: none; } }
+          @media only screen and (min-width: 200px) and (max-width: 650px) {
+            .menu .nav .nav__dropdown .products_li-nested::before {
+              display: none; } }
+          @media only screen and (min-width: 200px) and (max-width: 650px) {
+            .menu .nav .nav__dropdown .products_li-nested::before {
+              display: none; } }
+        @media only screen and (min-width: 651px) and (max-width: 896px) {
+          .menu .nav .nav__dropdown .products_li-nested {
+            width: 100%;
+            margin-top: 0;
+            z-index: 1;
+            padding: 0; } }
+        @media only screen and (min-width: 200px) and (max-width: 650px) {
+          .menu .nav .nav__dropdown .products_li-nested {
+            width: 100%;
+            margin-top: 0;
+            z-index: 1;
+            padding: 0; } }
+        .menu .nav .nav__dropdown .products_li-nested div {
+          flex: 0 0 50%; }
+          @media only screen and (min-width: 651px) and (max-width: 896px) {
+            .menu .nav .nav__dropdown .products_li-nested div {
+              width: 100%; } }
+          @media only screen and (min-width: 200px) and (max-width: 650px) {
+            .menu .nav .nav__dropdown .products_li-nested div {
+              width: 100%; } }
+          .menu .nav .nav__dropdown .products_li-nested div h3 {
+            color: #eff6ff;
+            text-transform: uppercase;
+            font-size: 0.9rem; }
+            @media only screen and (min-width: 651px) and (max-width: 896px) {
+              .menu .nav .nav__dropdown .products_li-nested div h3 {
+                padding: 20px; } }
+            @media only screen and (min-width: 200px) and (max-width: 650px) {
+              .menu .nav .nav__dropdown .products_li-nested div h3 {
+                padding: 20px; } }
+        .menu .nav .nav__dropdown .products_li-nested ul {
+          display: flex;
+          flex-direction: column;
+          align-items: start; }
+          .menu .nav .nav__dropdown .products_li-nested ul li {
+            margin-left: 0;
+            width: 100%; }
+            @media only screen and (min-width: 651px) and (max-width: 896px) {
+              .menu .nav .nav__dropdown .products_li-nested ul li {
+                border: 1px solid rgba(0, 0, 0, 0.2); } }
+            @media only screen and (min-width: 200px) and (max-width: 650px) {
+              .menu .nav .nav__dropdown .products_li-nested ul li {
+                border: 1px solid rgba(0, 0, 0, 0.2); } }
+          @media only screen and (min-width: 651px) and (max-width: 896px) {
+            .menu .nav .nav__dropdown .products_li-nested ul li a {
+              margin-left: 20px;
+              display: flex;
+              align-items: center;
+              gap: 5px; } }
+          @media only screen and (min-width: 200px) and (max-width: 650px) {
+            .menu .nav .nav__dropdown .products_li-nested ul li a {
+              margin-left: 20px;
+              display: flex;
+              align-items: center;
+              gap: 5px; } }
+    .menu .nav .nav__dropdown-second {
+      position: relative; }
+      .menu .nav .nav__dropdown-second .products_li-nested2 {
+        position: absolute;
+        left: 0;
+        top: 78px;
+        display: initial;
+        width: 220px;
+        background: #7dd3fc;
+        transition: all 0.5s ease-in-out;
+        display: none; }
+        .menu .nav .nav__dropdown-second .products_li-nested2::before {
+          content: "";
+          background: #7dd3fc;
+          width: 14px;
+          height: 10px;
+          clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+          position: absolute;
+          top: -4px;
+          left: 30%;
+          transform: translate(-50%, -50%); }
+          @media only screen and (min-width: 651px) and (max-width: 896px) {
+            .menu .nav .nav__dropdown-second .products_li-nested2::before {
+              display: none; } }
+          @media only screen and (min-width: 200px) and (max-width: 650px) {
+            .menu .nav .nav__dropdown-second .products_li-nested2::before {
+              display: none; } }
+          @media only screen and (min-width: 200px) and (max-width: 650px) {
+            .menu .nav .nav__dropdown-second .products_li-nested2::before {
+              display: none; } }
+        @media only screen and (min-width: 651px) and (max-width: 896px) {
+          .menu .nav .nav__dropdown-second .products_li-nested2 {
+            width: 100%;
+            z-index: 1;
+            top: 75px; } }
+        @media only screen and (min-width: 200px) and (max-width: 650px) {
+          .menu .nav .nav__dropdown-second .products_li-nested2 {
+            width: 100%;
+            z-index: 1;
+            top: 75px; } }
+        .menu .nav .nav__dropdown-second .products_li-nested2 li {
+          margin-left: 0; }
+          @media only screen and (min-width: 651px) and (max-width: 896px) {
+            .menu .nav .nav__dropdown-second .products_li-nested2 li {
+              border: 1px solid rgba(0, 0, 0, 0.2); } }
+          @media only screen and (min-width: 200px) and (max-width: 650px) {
+            .menu .nav .nav__dropdown-second .products_li-nested2 li {
+              border: 1px solid rgba(0, 0, 0, 0.2); } }
+          .menu .nav .nav__dropdown-second .products_li-nested2 li a {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 20px 25px; }
+    .menu .nav ul li:hover .products_li-nested {
+      transition: all 0.5s ease-in-out;
+      display: flex; }
+      @media only screen and (min-width: 651px) and (max-width: 896px) {
+        .menu .nav ul li:hover .products_li-nested {
+          display: block; } }
+      @media only screen and (min-width: 200px) and (max-width: 650px) {
+        .menu .nav ul li:hover .products_li-nested {
+          display: block; } }
+    .menu .nav ul li:hover .products_li-nested2 {
+      transition: all 0.5s ease-in-out;
+      display: block; }
+
+.nav.navActive {
+  visibility: visible;
+  opacity: 1; }
+
+/**************
+FLEX
+**************/
+/**************
+breakpoint
+**************/
+*,
+*::before,
+*::after {
+  box-sizing: border-box; }
+
+/* Remove default padding */
+ul,
+ol {
+  padding: 0; }
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0; }
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  line-height: 1.75; }
+  @media only screen and (min-width: 200px) and (max-width: 650px) {
+    body {
+      font-size: .9rem; } }
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  line-height: 1.3;
+  letter-spacing: 1px; }
+
+/* Remove list styles on ul, ol elements with a class attribute */
+ul,
+ol {
+  list-style: none; }
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto; }
+
+/* Make images easier to work with */
+img {
+  width: 100%;
+  display: block; }
+
+/* Natural flow and rhythm in articles by default */
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit; }
+
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important; } }
+.container {
+  width: 80%;
+  margin: 0 auto; }
+  @media only screen and (min-width: 200px) and (max-width: 650px) {
+    .container {
+      width: 90%; } }
+  @media only screen and (min-width: 200px) and (max-width: 650px) {
+    .container {
+      width: 95%; } }
+
+.py {
+  padding: 60px 0 90px; }
+  @media (max-width: 1300px) {
+    .py {
+      padding: 40px 0; } }
+  @media (max-width: 768px) {
+    .py {
+      padding: 30px 0; } }
+
+.btn {
+  display: inline-block;
+  background-color: #075985;
+  color: #eff6ff;
+  border: 1px solid #075985;
+  font-size: 14px;
+  letter-spacing: 2px;
+  padding: 15px 20px;
+  overflow: hidden;
+  margin: 10px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out; }
+  .btn:hover {
+    color: #eff6ff;
+    background-color: #38bdf8;
+    border-color: #38bdf8; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+.second__heading {
+  font-size: 2.8rem;
+  font-weight: 300;
+  margin-bottom: 100px; }
+  @media only screen and (min-width: 200px) and (max-width: 650px) {
+    .second__heading {
+      font-size: 2.2rem; } }
+
+/**************
+FLEX
+**************/
+/**************
+breakpoint
+**************/
+.associates {
+  padding: 30px 0;
+  background-color: #bae6fd; }
+  .associates .associates__holder {
+    display: flex;
+    align-items: center;
+    gap: 5%; }
+  @media only screen and (min-width: 200px) and (max-width: 650px) {
+    .associates {
+      display: none; } }
+
+/**************
+FLEX
+**************/
+/**************
+breakpoint
+**************/
+*,
+*::before,
+*::after {
+  box-sizing: border-box; }
+
+/* Remove default padding */
+ul,
+ol {
+  padding: 0; }
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0; }
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  line-height: 1.75; }
+  @media only screen and (min-width: 200px) and (max-width: 650px) {
+    body {
+      font-size: .9rem; } }
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  line-height: 1.3;
+  letter-spacing: 1px; }
+
+/* Remove list styles on ul, ol elements with a class attribute */
+ul,
+ol {
+  list-style: none; }
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto; }
+
+/* Make images easier to work with */
+img {
+  width: 100%;
+  display: block; }
+
+/* Natural flow and rhythm in articles by default */
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit; }
+
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important; } }
+.container {
+  width: 80%;
+  margin: 0 auto; }
+  @media only screen and (min-width: 200px) and (max-width: 650px) {
+    .container {
+      width: 90%; } }
+  @media only screen and (min-width: 200px) and (max-width: 650px) {
+    .container {
+      width: 95%; } }
+
+.py {
+  padding: 60px 0 90px; }
+  @media (max-width: 1300px) {
+    .py {
+      padding: 40px 0; } }
+  @media (max-width: 768px) {
+    .py {
+      padding: 30px 0; } }
+
+.btn {
+  display: inline-block;
+  background-color: #075985;
+  color: #eff6ff;
+  border: 1px solid #075985;
+  font-size: 14px;
+  letter-spacing: 2px;
+  padding: 15px 20px;
+  overflow: hidden;
+  margin: 10px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out; }
+  .btn:hover {
+    color: #eff6ff;
+    background-color: #38bdf8;
+    border-color: #38bdf8; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+.second__heading {
+  font-size: 2.8rem;
+  font-weight: 300;
+  margin-bottom: 100px; }
+  @media only screen and (min-width: 200px) and (max-width: 650px) {
+    .second__heading {
+      font-size: 2.2rem; } }
+
+/**************
+FLEX
+**************/
+/**************
+breakpoint
+**************/
+.recommend {
+  background-color: #e0f2fe;
+  text-align: center; }
+  .recommend h2 {
+    font-size: 2.8rem;
+    font-weight: 300;
+    margin-bottom: 100px; }
+  .recommend .insurance__holder {
+    display: flex;
+    justify-content: space-between; }
+    @media only screen and (min-width: 651px) and (max-width: 896px) {
+      .recommend .insurance__holder {
+        display: block; } }
+    @media only screen and (min-width: 200px) and (max-width: 650px) {
+      .recommend .insurance__holder {
+        display: block; } }
+    .recommend .insurance__holder .insurance__card {
+      flex: 0 0 30%; }
+      @media only screen and (min-width: 651px) and (max-width: 896px) {
+        .recommend .insurance__holder .insurance__card {
+          width: 100%;
+          margin-bottom: 100px; } }
+      @media only screen and (min-width: 200px) and (max-width: 650px) {
+        .recommend .insurance__holder .insurance__card {
+          width: 100%;
+          margin-bottom: 100px; } }
+      .recommend .insurance__holder .insurance__card .insurance__card-i {
+        color: #eff6ff;
+        font-size: 2rem;
+        line-height: 4rem;
+        height: 4rem;
+        width: 4rem;
+        border-radius: 50%;
+        margin: 0 auto;
+        background-color: #0c4a6e; }
+      .recommend .insurance__holder .insurance__card h3 {
+        padding: 30px 0 30px;
+        font-size: 1.7rem; }
+      .recommend .insurance__holder .insurance__card p {
+        color: #0ea5e9; }
+
+/**************
+FLEX
+**************/
+/**************
+breakpoint
+**************/
+*,
+*::before,
+*::after {
+  box-sizing: border-box; }
+
+/* Remove default padding */
+ul,
+ol {
+  padding: 0; }
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0; }
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  line-height: 1.75; }
+  @media only screen and (min-width: 200px) and (max-width: 650px) {
+    body {
+      font-size: .9rem; } }
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  line-height: 1.3;
+  letter-spacing: 1px; }
+
+/* Remove list styles on ul, ol elements with a class attribute */
+ul,
+ol {
+  list-style: none; }
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto; }
+
+/* Make images easier to work with */
+img {
+  width: 100%;
+  display: block; }
+
+/* Natural flow and rhythm in articles by default */
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit; }
+
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important; } }
+.container {
+  width: 80%;
+  margin: 0 auto; }
+  @media only screen and (min-width: 200px) and (max-width: 650px) {
+    .container {
+      width: 90%; } }
+  @media only screen and (min-width: 200px) and (max-width: 650px) {
+    .container {
+      width: 95%; } }
+
+.py {
+  padding: 60px 0 90px; }
+  @media (max-width: 1300px) {
+    .py {
+      padding: 40px 0; } }
+  @media (max-width: 768px) {
+    .py {
+      padding: 30px 0; } }
+
+.btn {
+  display: inline-block;
+  background-color: #075985;
+  color: #eff6ff;
+  border: 1px solid #075985;
+  font-size: 14px;
+  letter-spacing: 2px;
+  padding: 15px 20px;
+  overflow: hidden;
+  margin: 10px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out; }
+  .btn:hover {
+    color: #eff6ff;
+    background-color: #38bdf8;
+    border-color: #38bdf8; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+.second__heading {
+  font-size: 2.8rem;
+  font-weight: 300;
+  margin-bottom: 100px; }
+  @media only screen and (min-width: 200px) and (max-width: 650px) {
+    .second__heading {
+      font-size: 2.2rem; } }
+
+/**************
+FLEX
+**************/
+/**************
+breakpoint
+**************/
+.payments__part {
+  display: flex;
+  align-items: center;
+  gap: 10%; }
+  @media only screen and (min-width: 651px) and (max-width: 896px) {
+    .payments__part {
+      display: block; } }
+  @media only screen and (min-width: 200px) and (max-width: 650px) {
+    .payments__part {
+      display: block; } }
+  .payments__part:nth-child(even) {
+    flex-direction: row-reverse;
+    margin: 60px 0; }
+  .payments__part .payments__part-text {
+    flex: 0 0 45%; }
+    @media only screen and (min-width: 651px) and (max-width: 896px) {
+      .payments__part .payments__part-text {
+        width: 100%;
+        margin-top: 40px; } }
+    @media only screen and (min-width: 200px) and (max-width: 650px) {
+      .payments__part .payments__part-text {
+        width: 100%;
+        margin-top: 40px; } }
+    .payments__part .payments__part-text .payments__part-h3 {
+      font-size: 2rem; }
+      @media only screen and (min-width: 651px) and (max-width: 896px) {
+        .payments__part .payments__part-text .payments__part-h3 {
+          font-size: 1.55rem; } }
+      @media only screen and (min-width: 200px) and (max-width: 650px) {
+        .payments__part .payments__part-text .payments__part-h3 {
+          font-size: 1.55rem; } }
+    .payments__part .payments__part-text .payments__part-p {
+      margin: 40px 0; }
+      @media only screen and (min-width: 651px) and (max-width: 896px) {
+        .payments__part .payments__part-text .payments__part-p {
+          font-size: 0.9rem; } }
+      @media only screen and (min-width: 200px) and (max-width: 650px) {
+        .payments__part .payments__part-text .payments__part-p {
+          font-size: 0.9rem; } }
+    .payments__part .payments__part-text .btn {
+      width: 100%;
+      text-align: center;
+      font-size: 0.9rem; }
+
+.payments__part-img {
+  height: 650px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  flex: 0 0 45%;
+  border-radius: 10px; }
+  @media only screen and (min-width: 651px) and (max-width: 896px) {
+    .payments__part-img {
+      height: 450px;
+      width: 100%; } }
+  @media only screen and (min-width: 200px) and (max-width: 650px) {
+    .payments__part-img {
+      height: 450px;
+      width: 100%; } }
+
+.payments__part-img1 {
+  background-image: url(../img/payments1.jpg); }
+
+.payments__part-img2 {
+  background-image: url(../img/payments2.jpg); }
+
+.payments__part-img3 {
+  background-image: url(../img/payments3.jpg); }
+
+/**************
+FLEX
+**************/
+/**************
+breakpoint
+**************/
+*,
+*::before,
+*::after {
+  box-sizing: border-box; }
+
+/* Remove default padding */
+ul,
+ol {
+  padding: 0; }
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0; }
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  line-height: 1.75; }
+  @media only screen and (min-width: 200px) and (max-width: 650px) {
+    body {
+      font-size: .9rem; } }
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  line-height: 1.3;
+  letter-spacing: 1px; }
+
+/* Remove list styles on ul, ol elements with a class attribute */
+ul,
+ol {
+  list-style: none; }
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto; }
+
+/* Make images easier to work with */
+img {
+  width: 100%;
+  display: block; }
+
+/* Natural flow and rhythm in articles by default */
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit; }
+
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important; } }
+.container {
+  width: 80%;
+  margin: 0 auto; }
+  @media only screen and (min-width: 200px) and (max-width: 650px) {
+    .container {
+      width: 90%; } }
+  @media only screen and (min-width: 200px) and (max-width: 650px) {
+    .container {
+      width: 95%; } }
+
+.py {
+  padding: 60px 0 90px; }
+  @media (max-width: 1300px) {
+    .py {
+      padding: 40px 0; } }
+  @media (max-width: 768px) {
+    .py {
+      padding: 30px 0; } }
+
+.btn {
+  display: inline-block;
+  background-color: #075985;
+  color: #eff6ff;
+  border: 1px solid #075985;
+  font-size: 14px;
+  letter-spacing: 2px;
+  padding: 15px 20px;
+  overflow: hidden;
+  margin: 10px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out; }
+  .btn:hover {
+    color: #eff6ff;
+    background-color: #38bdf8;
+    border-color: #38bdf8; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+.second__heading {
+  font-size: 2.8rem;
+  font-weight: 300;
+  margin-bottom: 100px; }
+  @media only screen and (min-width: 200px) and (max-width: 650px) {
+    .second__heading {
+      font-size: 2.2rem; } }
+
+/**************
+FLEX
+**************/
+/**************
+breakpoint
+**************/
+.reviews {
+  display: flex;
+  position: relative;
+  overflow: hidden; }
+  @media only screen and (min-width: 651px) and (max-width: 896px) {
+    .reviews {
+      display: block; } }
+  @media only screen and (min-width: 200px) and (max-width: 650px) {
+    .reviews {
+      display: block; } }
+  .reviews .reviews__text {
+    flex: 0 0 50%;
+    background-color: #082f49;
+    color: #eff6ff; }
+    @media only screen and (min-width: 651px) and (max-width: 896px) {
+      .reviews .reviews__text {
+        height: 900px;
+        width: 100%;
+        position: relative;
+        text-align: center; } }
+    @media only screen and (min-width: 200px) and (max-width: 650px) {
+      .reviews .reviews__text {
+        height: 900px;
+        width: 100%;
+        position: relative;
+        text-align: center; } }
+    .reviews .reviews__text h3 {
+      font-size: 2.8rem;
+      font-weight: 400; }
+      @media only screen and (min-width: 651px) and (max-width: 896px) {
+        .reviews .reviews__text h3 {
+          font-size: 2.3rem; } }
+      @media only screen and (min-width: 200px) and (max-width: 650px) {
+        .reviews .reviews__text h3 {
+          font-size: 2.3rem; } }
+    .reviews .reviews__text .btn {
+      margin: 80px 0 40px; }
+    .reviews .reviews__text .reviews__container {
+      display: flex;
+      align-items: center;
+      gap: 20px; }
+      @media only screen and (min-width: 651px) and (max-width: 896px) {
+        .reviews .reviews__text .reviews__container {
+          position: absolute;
+          bottom: 20px;
+          left: 50%;
+          transform: translateX(-50%); } }
+      @media only screen and (min-width: 200px) and (max-width: 650px) {
+        .reviews .reviews__text .reviews__container {
+          position: absolute;
+          bottom: 20px;
+          left: 50%;
+          transform: translateX(-50%); } }
+      .reviews .reviews__text .reviews__container .rating {
+        display: inline-block;
+        position: relative;
+        line-height: 1em; }
+      .reviews .reviews__text .reviews__container .rating__overlay {
+        color: #ffd700;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 91%;
+        white-space: nowrap;
+        overflow: hidden; }
+      .reviews .reviews__text .reviews__container .rating__base {
+        color: #eff6ff;
+        white-space: nowrap; }
+  .reviews .reviews__carrousel {
+    flex: 0 0 50%;
+    background: #bae6fd;
+    overflow: hidden; }
+    @media only screen and (min-width: 651px) and (max-width: 896px) {
+      .reviews .reviews__carrousel {
+        position: absolute;
+        top: 50%;
+        z-index: 2;
+        background: #082f49; } }
+    @media only screen and (min-width: 200px) and (max-width: 650px) {
+      .reviews .reviews__carrousel {
+        position: absolute;
+        top: 50%;
+        z-index: 2;
+        background: #082f49; } }
+    @media only screen and (min-width: 200px) and (max-width: 650px) {
+      .reviews .reviews__carrousel {
+        top: 60%; } }
+
+/***** swiper *****/
+.swiper {
+  width: 100%;
+  height: 100%; }
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60%;
+  margin: auto;
+  max-width: 480px; }
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+.swiper-slide {
+  padding: 20px; }
+  .swiper-slide .user {
+    display: flex;
+    gap: 10px;
+    align-items: center; }
+    .swiper-slide .user .user__img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50px;
+      overflow: hidden; }
+      .swiper-slide .user .user__img img {
+        height: auto;
+        vertical-align: middle; }
+  .swiper-slide .user__opinion {
+    margin: 20px 0; }
+  .swiper-slide .user__review {
+    color: #ffd700; }
+
+/**************
+FLEX
+**************/
+/**************
+breakpoint
+**************/
+*,
+*::before,
+*::after {
+  box-sizing: border-box; }
+
+/* Remove default padding */
+ul,
+ol {
+  padding: 0; }
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0; }
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  line-height: 1.75; }
+  @media only screen and (min-width: 200px) and (max-width: 650px) {
+    body {
+      font-size: .9rem; } }
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  line-height: 1.3;
+  letter-spacing: 1px; }
+
+/* Remove list styles on ul, ol elements with a class attribute */
+ul,
+ol {
+  list-style: none; }
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto; }
+
+/* Make images easier to work with */
+img {
+  width: 100%;
+  display: block; }
+
+/* Natural flow and rhythm in articles by default */
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit; }
+
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important; } }
+.container {
+  width: 80%;
+  margin: 0 auto; }
+  @media only screen and (min-width: 200px) and (max-width: 650px) {
+    .container {
+      width: 90%; } }
+  @media only screen and (min-width: 200px) and (max-width: 650px) {
+    .container {
+      width: 95%; } }
+
+.py {
+  padding: 60px 0 90px; }
+  @media (max-width: 1300px) {
+    .py {
+      padding: 40px 0; } }
+  @media (max-width: 768px) {
+    .py {
+      padding: 30px 0; } }
+
+.btn {
+  display: inline-block;
+  background-color: #075985;
+  color: #eff6ff;
+  border: 1px solid #075985;
+  font-size: 14px;
+  letter-spacing: 2px;
+  padding: 15px 20px;
+  overflow: hidden;
+  margin: 10px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out; }
+  .btn:hover {
+    color: #eff6ff;
+    background-color: #38bdf8;
+    border-color: #38bdf8; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+.second__heading {
+  font-size: 2.8rem;
+  font-weight: 300;
+  margin-bottom: 100px; }
+  @media only screen and (min-width: 200px) and (max-width: 650px) {
+    .second__heading {
+      font-size: 2.2rem; } }
+
+/**************
+FLEX
+**************/
+/**************
+breakpoint
+**************/
+::-webkit-scrollbar {
+  display: none; }
+
+.explain h2 {
+  text-align: center; }
+
+.explain__holder {
+  height: 500px;
+  display: flex;
+  position: relative; }
+  @media only screen and (min-width: 200px) and (max-width: 650px) {
+    .explain__holder {
+      display: block;
+      height: fit-content; } }
+  .explain__holder::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1%;
+    background: #d9c4c4 !important;
+    height: 500px;
+    border-radius: 300px;
+    z-index: 1; }
+    @media only screen and (min-width: 200px) and (max-width: 650px) {
+      .explain__holder::after {
+        display: none; } }
+
+.explain__status {
+  flex: 0 0 1%;
+  border-right: 1px solid #000;
+  background-color: #808aa7;
+  height: 0;
+  border-radius: 300px;
+  z-index: 2; }
+  @media only screen and (min-width: 200px) and (max-width: 650px) {
+    .explain__status {
+      display: none; } }
+
+.explain__navigation {
+  flex: 0 0 34%;
+  padding-left: 20px; }
+  .explain__navigation ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%; }
+  @media only screen and (min-width: 200px) and (max-width: 650px) {
+    .explain__navigation li a {
+      font-weight: bold; } }
+
+.explain__text {
+  flex: 0 0 65%;
+  overflow: scroll;
+  transition: all 0.5s ease-in-out;
+  padding: 20px 0 20px 10px;
+  scroll-behavior: smooth; }
+  @media only screen and (min-width: 200px) and (max-width: 650px) {
+    .explain__text {
+      overflow: visible;
+      width: 100%; } }
+  .explain__text p {
+    margin: 20px 0; }
+  .explain__text .explain__text_div h3 {
+    text-transform: uppercase; }
+
+/**************
+FLEX
+**************/
+/**************
+breakpoint
+**************/
+*,
+*::before,
+*::after {
+  box-sizing: border-box; }
+
+/* Remove default padding */
+ul,
+ol {
+  padding: 0; }
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0; }
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  line-height: 1.75; }
+  @media only screen and (min-width: 200px) and (max-width: 650px) {
+    body {
+      font-size: .9rem; } }
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  line-height: 1.3;
+  letter-spacing: 1px; }
+
+/* Remove list styles on ul, ol elements with a class attribute */
+ul,
+ol {
+  list-style: none; }
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto; }
+
+/* Make images easier to work with */
+img {
+  width: 100%;
+  display: block; }
+
+/* Natural flow and rhythm in articles by default */
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit; }
+
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important; } }
+.container {
+  width: 80%;
+  margin: 0 auto; }
+  @media only screen and (min-width: 200px) and (max-width: 650px) {
+    .container {
+      width: 90%; } }
+  @media only screen and (min-width: 200px) and (max-width: 650px) {
+    .container {
+      width: 95%; } }
+
+.py {
+  padding: 60px 0 90px; }
+  @media (max-width: 1300px) {
+    .py {
+      padding: 40px 0; } }
+  @media (max-width: 768px) {
+    .py {
+      padding: 30px 0; } }
+
+.btn {
+  display: inline-block;
+  background-color: #075985;
+  color: #eff6ff;
+  border: 1px solid #075985;
+  font-size: 14px;
+  letter-spacing: 2px;
+  padding: 15px 20px;
+  overflow: hidden;
+  margin: 10px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out; }
+  .btn:hover {
+    color: #eff6ff;
+    background-color: #38bdf8;
+    border-color: #38bdf8; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+.second__heading {
+  font-size: 2.8rem;
+  font-weight: 300;
+  margin-bottom: 100px; }
+  @media only screen and (min-width: 200px) and (max-width: 650px) {
+    .second__heading {
+      font-size: 2.2rem; } }
+
+/**************
+FLEX
+**************/
+/**************
+breakpoint
+**************/
+.questions {
+  background-color: #38bdf8; }
+
+.questions__content .second__heading {
+  text-align: center; }
+.questions__content .btn {
+  display: block;
+  margin: 5rem auto 0; }
+  .questions__content .btn:hover {
+    border-color: #eff6ff; }
+  @media only screen and (min-width: 200px) and (max-width: 650px) {
+    .questions__content .btn {
+      width: 100%; } }
+
+.questions__parts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2%; }
+  @media only screen and (min-width: 200px) and (max-width: 650px) {
+    .questions__parts {
+      display: block; } }
+  .questions__parts .questions__part {
+    flex: 0 0 49%;
+    margin-bottom: 2rem; }
+    @media only screen and (min-width: 200px) and (max-width: 650px) {
+      .questions__parts .questions__part {
+        width: 100%; } }
+    .questions__parts .questions__part .questions__part_quess {
+      font-weight: bold;
+      font-size: 1.3rem;
+      margin-bottom: 2rem; }
+
+/**************
+FLEX
+**************/
+/**************
+breakpoint
+**************/
+/**************
+FLEX
+**************/
+/**************
+breakpoint
+**************/
+*,
+*::before,
+*::after {
+  box-sizing: border-box; }
+
+/* Remove default padding */
+ul,
+ol {
+  padding: 0; }
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0; }
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  line-height: 1.75; }
+  @media only screen and (min-width: 200px) and (max-width: 650px) {
+    body {
+      font-size: .9rem; } }
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  line-height: 1.3;
+  letter-spacing: 1px; }
+
+/* Remove list styles on ul, ol elements with a class attribute */
+ul,
+ol {
+  list-style: none; }
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto; }
+
+/* Make images easier to work with */
+img {
+  width: 100%;
+  display: block; }
+
+/* Natural flow and rhythm in articles by default */
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit; }
+
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important; } }
+.container {
+  width: 80%;
+  margin: 0 auto; }
+  @media only screen and (min-width: 200px) and (max-width: 650px) {
+    .container {
+      width: 90%; } }
+  @media only screen and (min-width: 200px) and (max-width: 650px) {
+    .container {
+      width: 95%; } }
+
+.py {
+  padding: 60px 0 90px; }
+  @media (max-width: 1300px) {
+    .py {
+      padding: 40px 0; } }
+  @media (max-width: 768px) {
+    .py {
+      padding: 30px 0; } }
+
+.btn {
+  display: inline-block;
+  background-color: #075985;
+  color: #eff6ff;
+  border: 1px solid #075985;
+  font-size: 14px;
+  letter-spacing: 2px;
+  padding: 15px 20px;
+  overflow: hidden;
+  margin: 10px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out; }
+  .btn:hover {
+    color: #eff6ff;
+    background-color: #38bdf8;
+    border-color: #38bdf8; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+.second__heading {
+  font-size: 2.8rem;
+  font-weight: 300;
+  margin-bottom: 100px; }
+  @media only screen and (min-width: 200px) and (max-width: 650px) {
+    .second__heading {
+      font-size: 2.2rem; } }
+
+footer {
+  background-color: #082f49;
+  color: #eff6ff; }
+
+.footer__part1 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px; }
+  @media only screen and (min-width: 200px) and (max-width: 650px) {
+    .footer__part1 {
+      display: block; } }
+  .footer__part1 .menu__head-logo {
+    margin-bottom: 30px; }
+  .footer__part1 .footer__adress p {
+    margin-bottom: 10px; }
+  .footer__part1 div h4 {
+    margin-bottom: 50px;
+    font-size: 1.2rem; }
+    @media only screen and (min-width: 200px) and (max-width: 650px) {
+      .footer__part1 div h4 {
+        margin-bottom: 40px; } }
+  .footer__part1 div li:not(:last-child) {
+    margin-bottom: 10px; }
+  .footer__part1 div a:hover {
+    text-decoration: underline; }
+  @media only screen and (min-width: 200px) and (max-width: 650px) {
+    .footer__part1 div {
+      margin-bottom: 40px; } }
+  .footer__part1 .about__social {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    @media only screen and (min-width: 200px) and (max-width: 650px) {
+      .footer__part1 .about__social {
+        margin-top: 40px;
+        justify-content: space-around; } }
+    .footer__part1 .about__social a {
+      transition: all 0.5s ease-in-out; }
+      .footer__part1 .about__social a i {
+        font-size: 1.3rem; }
+        @media only screen and (min-width: 200px) and (max-width: 650px) {
+          .footer__part1 .about__social a i {
+            font-size: 1.1rem; } }
+      .footer__part1 .about__social a:hover {
+        transform: scale(0.85);
+        color: #bae6fd; }
+
+.footer__part2 {
+  text-align: center;
+  border-top: 1px solid #eff6ff;
+  padding-top: 50px; }
+
+/*# sourceMappingURL=style.css.map */

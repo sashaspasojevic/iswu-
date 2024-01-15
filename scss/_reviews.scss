@@ -1,0 +1,140 @@
+@import "global";
+@import "mixins";
+@import "var";
+
+.reviews {
+  display: flex;
+  position: relative;
+  overflow: hidden;
+
+  @include breakpoint(tablet) {
+    display: block;
+  }
+
+  .reviews__text {
+    flex: 0 0 50%;
+    background-color: $color11;
+    color: $color1;
+
+    @include breakpoint(tablet) {
+      height: 900px;
+      width: 100%;
+      position: relative;
+      text-align: center;
+    }
+
+    h3 {
+      font-size: 2.8rem;
+      font-weight: 400;
+      @include breakpoint(tablet) {
+        font-size: 2.3rem;
+      }
+    }
+    .btn {
+      margin: 80px 0 40px;
+    }
+    .reviews__container {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+
+      @include breakpoint(tablet) {
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+
+      .rating {
+        display: inline-block;
+        position: relative;
+        line-height: 1em;
+      }
+
+      .rating__overlay {
+        color: $colorStars;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 91%;
+        white-space: nowrap;
+        overflow: hidden;
+      }
+
+      .rating__base {
+        color: $color1;
+        white-space: nowrap;
+      }
+    }
+  }
+
+  .reviews__carrousel {
+    flex: 0 0 50%;
+    background: $color3;
+    overflow: hidden;
+    @include breakpoint(tablet) {
+      position: absolute;
+      top: 50%;
+      z-index: 2;
+      background: $color11;
+    }
+    @include breakpoint(phone) {
+      top: 60%;
+    }
+  }
+}
+
+/***** swiper *****/
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60%;
+  margin: auto;
+  max-width: 480px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+// swiper slide content
+
+.swiper-slide {
+  padding: 20px;
+
+  .user {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    .user__img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50px;
+      overflow: hidden;
+      img {
+        height: auto;
+        vertical-align: middle;
+      }
+    }
+  }
+  .user__opinion {
+    margin: 20px 0;
+  }
+  .user__review {
+    color: $colorStars;
+  }
+}

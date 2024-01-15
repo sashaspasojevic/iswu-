@@ -1,0 +1,47 @@
+.menu__head-burger {
+  position: relative;
+  width: 40px;
+  height: 50px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: $transition;
+
+  @include breakpoint(tablet){
+    visibility: visible;
+    opacity: 1;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background: $color11;
+    transform: translateY(-12px);
+    box-shadow: 0 12px $color11;
+    transition: $transition;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background: $color11;
+    transform: translateY(12px);
+    transition: $transition;
+  }
+}
+
+.menu__head.active .menu__head-burger::before {
+  transform: rotate(45deg);
+  box-shadow: 0 0 $color2;
+}
+
+.menu__head.active .menu__head-burger::after {
+  transform: rotate(315deg);
+}

@@ -1,0 +1,70 @@
+@import "global";
+@import "mixins";
+@import "var";
+
+.payments__part {
+  display: flex;
+  align-items: center;
+  gap: 10%;
+
+  @include breakpoint(tablet) {
+    display: block;
+  }
+
+  &:nth-child(even) {
+    flex-direction: row-reverse;
+    margin: 60px 0;
+  }
+
+  .payments__part-text {
+    flex: 0 0 45%;
+    @include breakpoint(tablet) {
+      width: 100%;
+      margin-top: 40px;
+    }
+
+    .payments__part-h3 {
+      font-size: 2rem;
+      @include breakpoint(tablet) {
+        font-size: 1.55rem;
+      }
+    }
+
+    .payments__part-p {
+      margin: 40px 0;
+      @include breakpoint(tablet) {
+        font-size: 0.9rem;
+      }
+    }
+    .btn {
+      width: 100%;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+  }
+}
+
+.payments__part-img {
+  height: 650px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  flex: 0 0 45%;
+  border-radius: 10px;
+  @include breakpoint(tablet) {
+    height: 450px;
+    width: 100%;
+  }
+}
+
+.payments__part-img1 {
+  background-image: url(../img/payments1.jpg);
+}
+
+.payments__part-img2 {
+  background-image: url(../img/payments2.jpg);
+}
+
+.payments__part-img3 {
+  background-image: url(../img/payments3.jpg);
+}

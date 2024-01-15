@@ -1,0 +1,78 @@
+@import "var";
+@import "mixins";
+@import "global";
+
+footer {
+  background-color: $color11;
+  color: $color1;
+}
+
+.footer__part1 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+
+  @include breakpoint(phone) {
+    display: block;
+  }
+
+  .menu__head-logo {
+    margin-bottom: 30px;
+  }
+
+  .footer__adress {
+    p {
+      margin-bottom: 10px;
+    }
+  }
+
+  div {
+    h4 {
+      margin-bottom: 50px;
+      font-size: 1.2rem;
+      @include breakpoint(phone) {
+        margin-bottom: 40px;
+      }
+    }
+    li:not(:last-child) {
+      margin-bottom: 10px;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @include breakpoint(phone) {
+      margin-bottom: 40px;
+    }
+  }
+
+  .about__social {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @include breakpoint(phone) {
+      margin-top: 40px;
+      justify-content: space-around;
+    }
+    a {
+      transition: $transition;
+      i {
+        font-size: 1.3rem;
+        @include breakpoint(phone) {
+          font-size: 1.1rem;
+        }
+      }
+      &:hover {
+        transform: scale(0.85);
+        color: $color3;
+      }
+    }
+  }
+}
+
+.footer__part2 {
+  text-align: center;
+  border-top: 1px solid $color1;
+  padding-top: 50px;
+}

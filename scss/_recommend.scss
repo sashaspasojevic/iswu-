@@ -1,0 +1,48 @@
+@import "global";
+@import "mixins";
+@import "var";
+
+.recommend {
+  background-color: $color2;
+  text-align: center;
+
+  h2 {
+    font-size: 2.8rem;
+    font-weight: 300;
+    margin-bottom: 100px;
+  }
+
+  .insurance__holder {
+    display: flex;
+    justify-content: space-between;
+
+    @include breakpoint(tablet) {
+      display: block;
+    }
+
+    .insurance__card {
+      flex: 0 0 30%;
+      @include breakpoint(tablet) {
+        width: 100%;
+        margin-bottom: 100px;
+      }
+      .insurance__card-i {
+        color: $color1;
+        font-size: 2rem;
+        line-height: 4rem;
+        height: 4rem;
+        width: 4rem;
+        border-radius: 50%;
+        margin: 0 auto;
+        background-color: $color10;
+      }
+      h3 {
+        padding: 30px 0 30px;
+        font-size: 1.7rem;
+      }
+      p {
+        color: $color6;
+      }
+    }
+  }
+}

@@ -1,0 +1,246 @@
+@import "global";
+@import "mixins";
+@import "var";
+
+.menu__head-logo {
+  width: 80px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid $color11;
+  @include breakpoint(tablet) {
+    display: block;
+    width: 100%;
+  }
+
+  .menu__head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @include breakpoint(tablet) {
+      padding: 20px 0;
+    }
+  }
+
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    @include breakpoint(tablet) {
+      display: block;
+      position: absolute;
+      background: $color2;
+      width: 80%;
+      transition: $transition;
+      visibility: hidden;
+      opacity: 0;
+    }
+
+    @include breakpoint(phone) {
+      width: 95%;
+    }
+
+    .nav__pageNavigation {
+      margin-right: auto;
+      @include breakpoint(tablet) {
+        margin-right: 0;
+      }
+    }
+
+    ul {
+      display: flex;
+      align-items: center;
+
+      @include breakpoint(tablet) {
+        display: block;
+      }
+      li {
+        margin-left: 30px;
+        transition: $transition;
+        @include breakpoint(tablet) {
+          margin-left: 0;
+        }
+        a {
+          text-transform: capitalize;
+          transition: $transition;
+          display: inline-block;
+          padding: 40px 0;
+          i {
+            margin-right: 5px;
+            @include breakpoint(tablet) {
+              margin-left: unset;
+            }
+          }
+          @include breakpoint(tablet) {
+            padding: 25px 0;
+          }
+          &:hover {
+            color: $color6;
+          }
+        }
+      }
+    }
+
+    // for dropdown
+    .nav__dropdown {
+      position: relative;
+
+      .products_li-nested {
+        position: absolute;
+        left: -100px;
+        top: 78px;
+        background: $color4;
+        transition: $transition;
+        display: none;
+        align-items: start;
+        width: 550px;
+        padding: 50px;
+
+        @include breakpoint(tablet) {
+          left: 0;
+          top: 65px;
+        }
+
+        &::before {
+          content: "";
+          background: $color4;
+          width: 14px;
+          height: 10px;
+          clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+          position: absolute;
+          top: -4px;
+          left: 25%;
+          transform: translate(-50%, -50%);
+
+          @include breakpoint(tablet) {
+            display: none;
+          }
+
+          @include breakpoint(phone) {
+            display: none;
+          }
+        }
+
+        @include breakpoint(tablet) {
+          width: 100%;
+          margin-top: 0;
+          z-index: 1;
+          padding: 0;
+        }
+
+        div {
+          flex: 0 0 50%;
+
+          @include breakpoint(tablet) {
+            width: 100%;
+          }
+
+          h3 {
+            color: $color1;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+
+            @include breakpoint(tablet) {
+              padding: 20px;
+            }
+          }
+        }
+
+        ul {
+          display: flex;
+          flex-direction: column;
+          align-items: start;
+
+          li {
+            margin-left: 0;
+            width: 100%;
+
+            @include breakpoint(tablet) {
+              border: 1px solid rgba(0, 0, 0, 0.2);
+            }
+          }
+
+          li a {
+            @include breakpoint(tablet) {
+              margin-left: 20px;
+              display: flex;
+              align-items: center;
+              gap: 5px;
+            }
+          }
+        }
+      }
+    }
+
+    .nav__dropdown-second {
+      position: relative;
+      .products_li-nested2 {
+        position: absolute;
+        left: 0;
+        top: 78px;
+        display: initial;
+        width: 220px;
+        background: $color4;
+        transition: $transition;
+        display: none;
+        &::before {
+          content: "";
+          background: $color4;
+          width: 14px;
+          height: 10px;
+          clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+          position: absolute;
+          top: -4px;
+          left: 30%;
+          transform: translate(-50%, -50%);
+
+          @include breakpoint(tablet) {
+            display: none;
+          }
+
+          @include breakpoint(phone) {
+            display: none;
+          }
+        }
+        @include breakpoint(tablet) {
+          width: 100%;
+          z-index: 1;
+          top: 75px;
+        }
+
+        li {
+          margin-left: 0;
+          @include breakpoint(tablet) {
+            border: 1px solid rgba(0, 0, 0, 0.2);
+          }
+          a {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 20px 25px;
+          }
+        }
+      }
+    }
+
+    ul li:hover .products_li-nested {
+      transition: $transition;
+      display: flex;
+      @include breakpoint(tablet) {
+        display: block;
+      }
+    }
+    ul li:hover .products_li-nested2 {
+      transition: $transition;
+      display: block;
+    }
+  }
+}
+
+.nav.navActive {
+  visibility: visible;
+  opacity: 1;
+}

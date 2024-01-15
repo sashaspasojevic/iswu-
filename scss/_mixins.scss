@@ -1,0 +1,35 @@
+/**************
+FLEX
+**************/
+@mixin flex($x: space-between, $y: stretch, $d: row) {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: $d;
+
+  @if ($d==row) {
+    justify-content: $x;
+    align-items: $y;
+  } @else if($d==column) {
+    justify-content: $y;
+    align-items: $x;
+  }
+}
+
+/**************
+breakpoint
+**************/
+
+@mixin breakpoint($breakpoint) {
+  @if $breakpoint== "phone" {
+    @media only screen and (min-width: 200px) and (max-width: 650px) {
+      @content; //css pravila
+    }
+  } @else if $breakpoint== "tablet" {
+    @media only screen and (min-width: 651px) and (max-width: 896px) {
+      @content;
+    }
+    @media only screen and (min-width: 200px) and (max-width: 650px) {
+      @content; // CSS pravila za mobilni dizajn
+    }
+  }
+}

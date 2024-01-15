@@ -1,0 +1,158 @@
+@import "var";
+@import "mixins";
+
+// /* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default padding */
+ul,
+ol {
+  padding: 0;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+// *{
+//         margin: 0;
+//         padding: 0;
+//         box-sizing: border-box;
+// }
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  font-family: $fontFamily;
+  font-weight: 400;
+  line-height: 1.75;
+  @include breakpoint(phone) {
+    font-size: .9rem;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  line-height: 1.3;
+  letter-spacing: 1px;
+}
+
+/* Remove list styles on ul, ol elements with a class attribute */
+ul,
+ol {
+  list-style: none;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img {
+  width: 100%;
+  display: block;
+}
+
+/* Natural flow and rhythm in articles by default */
+// article>*+* {
+//         margin-top: 1em;
+// }
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  @include breakpoint(phone) {
+    width: 90%;
+  }
+  @include breakpoint(phone) {
+    width: 95%;
+  }
+}
+
+.py {
+  padding: 60px 0 90px;
+
+  @media (max-width: 1300px) {
+    padding: 40px 0;
+  }
+
+  @media (max-width: 768px) {
+    padding: 30px 0;
+  }
+}
+
+.btn {
+  display: inline-block;
+  background-color: $color9;
+  color: $color1;
+  border: 1px solid $color9;
+  font-size: 14px;
+  letter-spacing: 2px;
+  padding: 15px 20px;
+  overflow: hidden;
+  margin: 10px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: $transition;
+  &:hover {
+    color: $color1;
+    background-color: $color5;
+    border-color: $color5;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.second__heading {
+  font-size: 2.8rem;
+  font-weight: 300;
+  margin-bottom: 100px;
+  @include breakpoint(phone) {
+    font-size: 2.2rem;
+  }
+}

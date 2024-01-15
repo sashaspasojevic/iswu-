@@ -1,0 +1,16 @@
+@import "global";
+@import "mixins";
+@import "var";
+
+.associates {
+  padding: 30px 0;
+  background-color: $color3;
+  .associates__holder {
+    display: flex;
+    align-items: center;
+    gap: 5%;
+  }
+  @include breakpoint(phone){
+        display: none;
+  }
+}

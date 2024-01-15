@@ -1,0 +1,48 @@
+@import "global";
+@import "mixins";
+@import "var";
+
+.questions {
+  background-color: $color5;
+}
+
+.questions__content {
+  .second__heading {
+    text-align: center;
+  }
+  .btn {
+    display: block;
+    margin: 5rem auto 0;
+    &:hover {
+      border-color: $color1;
+    }
+    @include breakpoint(phone) {
+        width: 100%;
+    }
+  }
+}
+
+.questions__parts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2%;
+
+  @include breakpoint(phone) {
+    display: block;
+  }
+
+  .questions__part {
+    flex: 0 0 49%;
+    margin-bottom: 2rem;
+
+    @include breakpoint(phone) {
+      width: 100%;
+    }
+    .questions__part_quess {
+      font-weight: bold;
+      font-size: 1.3rem;
+      margin-bottom: 2rem;
+    }
+  }
+}
